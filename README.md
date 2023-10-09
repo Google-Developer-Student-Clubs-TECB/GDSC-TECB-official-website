@@ -24,7 +24,7 @@ We welcome contributions from everyone. To get started, follow these steps:
 3. **Create a New Branch:** Create a new branch to work on your changes. This helps keep your changes isolated from the main codebase. Use the following command:
 
     ```bash
-    git checkout "-b your-branch-name"
+    git checkout -b "your-branch-name"
     ```
 
 4. **Navigate to the Frontend Folder:** Change your working directory to the frontend folder of the project:
