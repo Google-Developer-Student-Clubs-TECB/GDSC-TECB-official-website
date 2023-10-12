@@ -38,9 +38,9 @@ function Home() {
     </div>
   </div>
   {/* What we do sec*/}
-  {/* <div className="homepage-what-we-do-sec">
+   <div className="homepage-what-we-do-sec">
 
-  // </div> */} 
+  // </div>
   <div className="homepage-newsletter-sec">
     <div className="homepage-newsletter-sec-content">
       <div className="homepage-newsletter-sec-content-img">
