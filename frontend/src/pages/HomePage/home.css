@@ -1,18 +1,10 @@
-
-.homepage-hero-sec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-
-}
-
 .homepage-hero-sec-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 100vh;
+    padding: 0px 60px;
 
 }
 .homepage-hero-sec-content-ele {
@@ -60,8 +52,76 @@
     margin-left: 10px;
   
 }
+.hompage-about-sec{
+    background-color: #F1F3F4;
+}
+.homepage-about-sec-content{
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+padding: 0px 60px;
+}
+.about-us{
+    font-size:40px;
+    font-weight:600;
+    padding: 55px 0px 20px 0px;
+}
+.about-content {
+    font-size: 20px;
+    padding: 20px 55px 50px 55px;
+    text-align: center;
+}
+.about-sec-img{
+    padding-bottom:45px;
+}
+.homepage-newsletter-sec {
+    display: flex;
+    justify-content: center;
+    /* Center the content horizontally */
+    align-items: center;
+    /* Center the content vertically */
+}
 
-/* Add media queries for responsiveness */
+.homepage-newsletter-sec-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius:11px;
+    margin:50px 0px;
+}
+.homepage-newsletter-content-heading {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+}
+.homepage-newsletter-content-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+button.email-btn {
+    font-size: 15px;
+    width: 250px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    text-align: left;
+}
+button.subs-btn {
+    width: 150px;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: #4385F3;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    position: relative;
+    left: -10px;
+}
 @media (max-width: 768px) {
     .homepage-hero-sec-content {
         flex-direction: column-reverse;
